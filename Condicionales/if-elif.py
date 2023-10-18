@@ -37,7 +37,7 @@ elif puntos_de_vida < 1500:
 else:
     print("Vida insuficiente")
      
-        
+  # prueba      
 
  
 
