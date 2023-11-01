@@ -24,4 +24,4 @@ else:
     print("Fin del bucle")  
     
     
-# Todo esto funciona tanto con listas como con tuplas
+# Todo esto funciona tanto con listas como con tuplas y conjuntos
