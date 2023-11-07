@@ -1,7 +1,9 @@
-numero_ingresado = int(input('Ingrese un numero entero: '))
+contraseña_establecida = 'ASC'
+ingresar_contraseña = ''
 
-#for i in range(0,numero_ingresado):
-    #resultado = numero_ingresado.sort(0,numero_ingresado)
-    #print(resultado)
+while ingresar_contraseña != contraseña_establecida:
+    ingresar_contraseña = input('\nIngrese la contraseña: ')
+    if ingresar_contraseña != contraseña_establecida:
+        print('Contraseña incorrecta. Intente nuevamente.')
 
-print(dir(numero_ingresado))
+print('Contraseña correcta.')
