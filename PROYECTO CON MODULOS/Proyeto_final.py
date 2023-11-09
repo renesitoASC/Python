@@ -25,41 +25,40 @@ while True:
     else:
         print('Elija solo una opcion por favor.')
 
-while True:
-    if pregunta_al_usuario == '1':
+if pregunta_al_usuario == '1':
+    while True:
         print('\nUsted ha elegido "Calculos matematicos".')
         print('------------')
         print('1- Sumar')
         print('2- Restar')          # Menu para CALCULOS.
         print('------------')
-    decision_usuario_calculos = input('Ingrese el calculo que desa realizar: ')
+        decision_usuario_calculos = input('Ingrese el calculo que desa realizar: ')
 
-    if len(decision_usuario_calculos) == 1:
-        break
-    else:
-        print('Por favor elija solo un calculo a realizar.')
+        if len(decision_usuario_calculos) == 1:
+            break
+        else:
+          print('Por favor elija solo un calculo a realizar.')
 
-if decision_usuario_calculos == '1':
-    print(Suma.Funcion_suma())          # Imprimiendo funciones para CALCULOS
-elif decision_usuario_calculos == '2':
-    print(Resta.Funcion_resta())
+    if decision_usuario_calculos == '1':
+        print(Suma.Funcion_suma())          # Imprimiendo funciones para CALCULOS
+    elif decision_usuario_calculos == '2':
+        print(Resta.Funcion_resta())
 
-while True:
-    if pregunta_al_usuario == '2':
+if pregunta_al_usuario == '2':
+    while True:
         print('\nUsted ha elegido "Saludos al usuario"')
         print('------------')
         print('1- Saludo cordial.')
-        print('2- Saludo normal.')
+        print('2- Saludo normal.')          # Menu para SALUDOS
         print('------------')
         decision_usuario_saludo = input('Ingrese el tipo de saludo que quiere recibir: ')
+        if len(decision_usuario_saludo) == 1:
+            break
+        else:
+            print('Ingrese un solo tipo de saludo.')
 
-    if len(decision_usuario_saludo) == 1:
-        break
-    else:
-        print('Ingrese un solo tipo de saludo.')
-    
-if decision_usuario_saludo == '1':
-    print(m_saludo_cordial.Saludo_cordial())
-elif decision_usuario_saludo == '2':
-    print(m_saludo_normal.Saludo_normal())
+    if decision_usuario_saludo == '1':
+        print(m_saludo_cordial.Saludo_cordial())
+    elif decision_usuario_saludo == '2':    # Imprimiendo funciones para SALUDOS
+        print(m_saludo_normal.Saludo_normal())
 
