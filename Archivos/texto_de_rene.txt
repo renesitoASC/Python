@@ -1,0 +1,3 @@
+Sobrescribiendo el archivo con el metodo write
+Con este otro metodo agregamos lineas al archivo.
+Le podemos pasar las oraciones que queramos porque es un iterable

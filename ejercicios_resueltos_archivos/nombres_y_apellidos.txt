@@ -1,0 +1,15 @@
+El nombre es: rene
+El apellido es: ASC
+----------------
+El nombre es: franco
+El apellido es: cerana
+----------------
+El nombre es: valentina
+El apellido es: giardini
+----------------
+El nombre es: mateo
+El apellido es: barba
+----------------
+El nombre es: agustin
+El apellido es: Messi
+----------------
