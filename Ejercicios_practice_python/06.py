@@ -5,3 +5,6 @@ if palabra == lista.reverse():
     print('Su palabra es un palindromo')
 else:
     print('Su palabra NO es un palindromo.')
+
+print(palabra)
+print(lista)
